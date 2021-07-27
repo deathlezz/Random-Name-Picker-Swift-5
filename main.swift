@@ -4,12 +4,10 @@
 //  Created by deathlezz on 23/05/2021.
 //
 
-
 var nameCounter = 1               // name counter
 var namesArray: [String] = []     // set of entered names
 var namesArray2: [String] = []    // final set of unique and randomly picked names
 var pickedNamePlace = 1           // place of the picked name
-
 
 print("* Welcome to Random Name Picker *")
 
