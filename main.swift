@@ -62,7 +62,6 @@ func picker() {
                             if (randomName != nil) != namesArray2.contains(randomName!) {     // check if the found name is unique
                                 
                                 namesArray2.append(randomName!)     // add unique name to second set of names
-                                
                             }
                         }
                         
@@ -79,7 +78,6 @@ func picker() {
                         namesArray = []
                         namesArray2 = []
                         pickedNamePlace = 1
-                        
                         return picker()
                         
                     } else {
