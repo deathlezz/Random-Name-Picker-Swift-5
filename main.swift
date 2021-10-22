@@ -59,7 +59,7 @@ func picker() {
                             
                             let randomName = namesArray.randomElement()     // search for a random name
                             
-                            if (randomName != nil) != namesArray2.contains(randomName!) {     // check if the found name is unique
+                            if !namesArray2.contains(randomName!) {     // check if the found name is unique
                                 
                                 namesArray2.append(randomName!)     // add unique name to second array of names
                             }
