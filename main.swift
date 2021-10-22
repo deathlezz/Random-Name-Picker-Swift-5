@@ -26,7 +26,7 @@ func picker() {
                 
                 let name = readLine()
                 
-                if (name == name) != namesArray.contains(name!) {
+                if !namesArray.contains(name!) {
                     
                     if !name!.isEmpty && !name!.hasPrefix(" ") && !name!.hasSuffix(" ") {     // avoid ENTER input & whitespaces
                     
