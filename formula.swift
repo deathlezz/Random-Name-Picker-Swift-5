@@ -20,6 +20,6 @@ while newNamesArray.count != namesAmount {
         newNamesArray.append(random!)
     }
 }
-
+// output
 print(newNamesArray)
 // ["Rick", "Sue", "Jerry", "Josh", "Jack"]
