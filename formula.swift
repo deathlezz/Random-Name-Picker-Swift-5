@@ -8,7 +8,7 @@
 let namesAmount = 5
 // array of entered names to pick
 let namesArray = ["Jack", "Josh", "Jerry", "Rick", "Sue"]
-// array of picked and unique names
+// array of randomly picked and unique names
 var newNamesArray: [String] = []
 
 while newNamesArray.count != namesAmount {
